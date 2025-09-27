@@ -1,16 +1,20 @@
-# calculator.py
-# Einfache Python-Rechner (Simple Calculator)
+# Einfacher Python-Rechner
+# Dieser Code führt Grundoperationen aus: Addition, Subtraktion, Multiplikation, Division
 
 def add(a, b):
+    # Addition von zwei Zahlen
     return a + b
 
 def subtract(a, b):
+    # Subtraktion von zwei Zahlen
     return a - b
 
 def multiply(a, b):
+    # Multiplikation von zwei Zahlen
     return a * b
 
 def divide(a, b):
+    # Division von zwei Zahlen mit Fehlerbehandlung
     if b == 0:
         return "Fehler: Division durch Null!"
     return a / b
